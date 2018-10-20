@@ -49,7 +49,7 @@ int main()
 		}
 		x %= mask;
 		mask /= 10;
-	}while(mask>0); //逐位读取数字，非常重要！！！！
+	}while(mask>0); //正向逐位读取数字，非常重要！！！！
 	return 0;
 }
 
