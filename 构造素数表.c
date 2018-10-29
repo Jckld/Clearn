@@ -1,9 +1,10 @@
 // 利用数组构造100以内素数表 
+// 100 is variable.
 #include<stdio.h>
 int main()
 {
 	int i;
-	int prime[100]={0,0};
+	int prime[100]={0,0}; 
 	for(i=2;i<100;i++) {
 		prime[i] = 1;
 	}
